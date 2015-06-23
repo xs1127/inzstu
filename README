@@ -1,0 +1,10 @@
+此安卓客户端程序是本人毕业设计作品，花的时间也有好几个月的时间，主要涵盖的内容有以下几个方面：
+1：控件的重写 对edittext控件进行的重写
+2：与服务器端的交互，包含大量的网络编程
+3: 图片的上传下载，用到了commonsfileupload imageloader等第三方控件 这是本程序的一大亮点  
+4：json数据的处理
+5：用到的控件主要有：textview,edittext,button,listview,viewpager等
+6: shareedpreference保存数据，用户自动登录功能
+
+
+7：相信对于android新手来说是一个很好的Demo,如果你是高手，那还请绕道吧
