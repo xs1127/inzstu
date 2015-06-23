@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp" >
+
+    <ImageView
+        android:id="@+id/user_pho"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/default_pic" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@id/user_pho"
+        android:clickable="true"
+        android:textColor="#576B95"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/user_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_name"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/user_pho" />
+
+    <cn.edu.zstu.customview.NoScrollGridView
+        android:id="@+id/user_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_message"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/user_pho"
+        android:horizontalSpacing="3dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="3dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

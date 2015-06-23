@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:text="@string/inDetail"
+        android:textColor="@color/blue_style"
+        android:textSize="38sp" />
+
+    <RelativeLayout
+        style="@style/layout_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp" >
+
+        <TextView
+            android:id="@+id/userName_1"
+            style="@style/textControl"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/register_name" />
+
+        <TextView
+            android:id="@+id/userName_2"
+            style="@style/textControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/userName_1"
+            android:layout_toRightOf="@id/userName_1" />
+
+        <TextView
+            android:id="@+id/gender_1"
+            style="@style/textControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/userName_1"
+            android:layout_below="@id/userName_1"
+            android:layout_marginTop="30dp"
+            android:text="@string/gender" />
+
+        <TextView
+            android:id="@+id/gender_2"
+            style="@style/textControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/gender_1"
+            android:layout_alignLeft="@id/userName_2" />
+
+        <TextView
+            android:id="@+id/institute_1"
+            style="@style/textControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/userName_1"
+            android:layout_below="@id/gender_1"
+            android:layout_marginTop="30dp"
+            android:text="@string/institute" />
+
+        <TextView
+            android:id="@+id/institute_2"
+            style="@style/textControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/institute_1"
+            android:layout_alignLeft="@id/userName_2" />
+
+        <TextView
+            android:id="@+id/phone_1"
+            style="@style/textControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/userName_1"
+            android:layout_below="@id/institute_1"
+            android:layout_marginTop="30dp"
+            android:text="@string/phone" />
+
+        <TextView
+            android:id="@+id/phone_2"
+            style="@style/textControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/phone_1"
+            android:layout_alignLeft="@id/userName_2" />
+
+        <TextView
+            android:id="@+id/postDate_1"
+            style="@style/textControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/userName_1"
+            android:layout_below="@id/phone_1"
+            android:layout_marginTop="30dp"
+            android:text="@string/postDate" />
+
+        <TextView
+            android:id="@+id/postDate_2"
+            style="@style/textControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/postDate_1"
+            android:layout_alignLeft="@id/userName_2" />
+
+        <TextView
+            android:id="@+id/state_1"
+            style="@style/textControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/userName_1"
+            android:layout_below="@id/postDate_1"
+            android:layout_marginTop="30dp"
+            android:text="@string/state" />
+
+        <TextView
+            android:id="@+id/state_2"
+            style="@style/textControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/state_1"
+            android:layout_alignLeft="@id/userName_2" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/favorite_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/postitem_sendbutton"
+        android:gravity="center"
+        android:text="@string/buy"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+</LinearLayout>

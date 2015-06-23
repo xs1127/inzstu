@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/layout_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp" >
+
+        <TextView
+            android:id="@+id/mypurchase_username_l"
+            style="@style/textControl"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/mypurchase_username" />
+
+        <TextView
+            android:id="@+id/mypurchase_username_r"
+            style="@style/textControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/mypurchase_username_l"
+            android:layout_toRightOf="@id/mypurchase_username_l" />
+
+        <TextView
+            android:id="@+id/mypurchase_phone_l"
+            style="@style/textControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/mypurchase_username_l"
+            android:layout_below="@id/mypurchase_username_l"
+            android:layout_marginTop="5dp"
+            android:text="@string/mypurchase_phone" />
+
+        <TextView
+            android:id="@+id/mypurchase_phone_r"
+            style="@style/textControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/mypurchase_phone_l"
+            android:layout_toRightOf="@id/mypurchase_phone_l" />
+
+        <TextView
+            android:id="@+id/mypurchase_date_l"
+            style="@style/textControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/mypurchase_username_l"
+            android:layout_below="@id/mypurchase_phone_l"
+            android:layout_marginTop="5dp"
+            android:text="@string/mypurchase_date" />
+
+        <TextView
+            android:id="@+id/mypurchase_date_r"
+            style="@style/textControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/mypurchase_date_l"
+            android:layout_toRightOf="@id/mypurchase_date_l" />
+
+        <TextView
+            android:id="@+id/mypurchase_message_l"
+            style="@style/textControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/mypurchase_date_l"
+            android:layout_below="@id/mypurchase_date_l"
+            android:layout_marginTop="5dp"
+            android:text="@string/mypurchase_message" />
+
+        <TextView
+            android:id="@+id/mypurchase_message_r"
+            style="@style/textControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/mypurchase_message_l"
+            android:layout_alignLeft="@id/mypurchase_date_r"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/mypurchase_pics_1"
+            style="@style/textControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/mypurchase_date_l"
+            android:layout_below="@id/mypurchase_message_l"
+            android:layout_marginTop="5dp"
+            android:text="@string/mypost_pics" />
+
+        <TextView
+            android:id="@+id/mypurchase_pics_r"
+            style="@style/textControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/mypurchase_pics_1"
+            android:layout_alignLeft="@id/mypurchase_date_r" />
+
+        <TextView
+            android:id="@+id/mypurchase_category_l"
+            style="@style/textControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/mypurchase_pics_1"
+            android:layout_below="@id/mypurchase_pics_1"
+            android:layout_marginTop="5dp"
+            android:text="@string/mypurchase_category" />
+
+        <TextView
+            android:id="@+id/mypurchase_category_r"
+            style="@style/textControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/mypurchase_category_l"
+            android:layout_alignLeft="@id/mypurchase_pics_r"
+            android:singleLine="true" />
+    </RelativeLayout>
+
+</LinearLayout>

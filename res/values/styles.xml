@@ -1,0 +1,68 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- user_profile中第一行用到的style -->
+    <style name="user_profile_1">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:background">#836FFF</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- user_profile中第二行用到的style -->
+    <style name="user_profile_2">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@null</item>
+    </style>
+    <!-- 用于设置layout的左右边距 -->
+    <style name="layout_margin">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <!-- 设置layout_weight  layout_height全是wrap content的style样式 -->
+    <style name="wrap_content">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <!-- 用于postitem中3个按钮的样式设计 -->
+    <style name="postitem_image">
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+    <style name="dialogstyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item> 
+        <item name="android:windowBackground">@drawable/dialogshape</item>
+        <item name="android:windowIsFloating">true</item> <!-- 是否漂浮在现有的activity上 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <style name="textControl">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black_style</item>
+    </style>
+</resources>

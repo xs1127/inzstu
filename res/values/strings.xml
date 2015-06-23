@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">浙理微校园</string>
+
+    <string-array name="welcome">
+        <item>浙理微校园</item>
+        <item>欢聚浙理，铭记青春！</item>
+    </string-array>
+    <string-array name="camOrPic">
+        <item>拍照</item>
+        <item>相册</item>
+    </string-array>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="user_profile_login_tips">LOG IN</string>
+    <string name="user_profile_login_tips_right">还没有账号？一键注册!</string>
+    <!-- user_profile_attribute -->
+    <string name="beforelogin">登录可使用更多功能!</string>
+    <string name="login">登录</string>
+    <string name="logout">注销</string>
+    <string name="postitem">发布新帖</string>
+    <string name="collection">我的收藏</string>
+    <string name="subscribe">我的订阅</string>
+    <string name="username">学号</string>
+    <string name="passwd">密码</string>
+    <string name="indicator">indicator</string>
+    <string name="postitem_introduce">介绍下你的宝贝吧......</string>
+    <string name="postitem_send">发   送</string>
+    <string name="register">注   册</string>
+    <string name="register_name">用户名:</string>
+    <string name="register_username_hint">用户名</string>
+    <string name="register_passwd_hint">密码</string>
+    <string name="register_repasswd_hint">重复密码</string>
+    <string name="register_passwd">密码:</string>
+    <string name="register_repasswd">重复密码:</string>
+    <string name="register_ok">确  定</string>
+    <string name="inDetail">详情页面</string>
+    <string name="gender">性别:</string>
+    <string name="institute">学院:</string>
+    <string name="phone">手机:</string>
+    <string name="postDate">发布时间:</string>
+    <string name="state">已售卖:</string>
+    <string name="buy">购 买</string>
+    <string name="mypost_date">发布日期:</string>
+    <string name="mypost_message">发布内容:</string>
+    <string name="mypost_pics">图片信息:</string>
+    <string name="mypost_state">已售卖?:</string>
+    <string name="modifypost_edit">保 存</string>
+    
+    <string name="mypurchase_username">卖家名称:</string>
+    <string name="mypurchase_phone">联系电话:</string>
+    <string name="mypurchase_date">购买日期:</string>
+    <string name="mypurchase_category">产品分类:</string>
+    <string name="mypurchase_message">描述信息:</string>
+    <string name="mypurchase_pics">图片信息:</string>
+    <!-- 让BUTTON有按下的效果 -->
+    <drawable name="state_pressed_false">#836FFF</drawable>
+    <drawable name="state_pressed_true">#8A2BE2</drawable>
+    <drawable name="postitem_button_normal">#00EE00</drawable>
+    <drawable name="postitem_button_pressed">#00CD00</drawable>
+
+    <!-- 以下颜色的定义 -->
+    <color name="white_style">#FFFFFF</color>
+    <color name="black_style">#000000</color>
+    <color name="orange_style">#EE4000</color>
+    <color name="green_style">#00CD00</color>
+    <color name="grey_style">#CFCFCF</color>
+    <color name="blue_style">#6495ED</color>
+    <color name="red_style">#FF0000</color>
+    <!-- 下面是下拉刷新等用到的string -->
+    <string name="pushmsg_center_no_more_msg">已经到底啦</string>
+    <string name="pushmsg_center_pull_up_text">松开加载更多</string>
+    <string name="pushmsg_center_pull_down_text">下拉可以刷新</string>
+    <string name="pushmsg_center_pull_release_text">松开获取更多</string>
+    <string name="pushmsg_center_pull_down_update_time">最后更新时间 : </string>
+    <string name="pushmsg_center_load_more_ongoing_text">正在加载中</string>
+    <string name="xsearch_loading">正在加载中…</string>
+
+    <!-- 加载图片失败时的提示文本 -->
+    <string name="picture_load_image_failed">点击屏幕，重新加载</string>
+    <!-- 加载中提示 -->
+    <string name="picture_image_loading">正在加载…</string>
+
+    <!-- 下拉刷新和上拉加载更多的文本 -->
+    <string name="pull_to_refresh_header_hint_normal">@string/pushmsg_center_pull_down_text</string>
+    <string name="pull_to_refresh_header_hint_normal2">上拉可以刷新</string>
+    <string name="pull_to_refresh_header_hint_ready">松开后刷新</string>
+    <string name="pull_to_refresh_header_hint_loading">@string/pushmsg_center_load_more_ongoing_text</string>
+    <string name="pull_to_refresh_header_last_time">@string/pushmsg_center_pull_down_update_time</string>
+    <string name="pull_to_refresh_footer_hint_ready">松开载入更多</string>
+    <string name="pull_to_refresh_refreshing_label">@string/pull_to_refresh_header_hint_loading</string>
+    <string name="pull_to_refresh_no_more_data">@string/pushmsg_center_no_more_msg</string>
+    <string name="pull_to_refresh_network_error">网络不给力，请检查网络</string>
+
+    <!-- 图片保存的文字 -->
+    <string name="picture_save_succeed">图片已保存到相册</string>
+    <string name="picture_save_fail">保存图片失败</string>
+    <string name="picture_next_album">下一组：</string>
+    <string name="picture_previous_album">上一组：</string>
+    <string name="viewpager_direct">%1$d/%2$d</string>
+    <string name="gridview_item">gridviewitem</string>
+
+</resources>

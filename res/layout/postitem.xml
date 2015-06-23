@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/postitem_introduce"
+        style="@style/layout_margin"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@null"
+        android:gravity="top"
+        android:hint="@string/postitem_introduce"
+        android:inputType="textMultiLine"
+        android:maxLines="5" />
+
+    <LinearLayout
+        android:id="@+id/postitem_dynamic_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/postitem_first_image"
+            style="@style/postitem_image"
+            android:src="@drawable/postitem_addphoto_selector" />
+
+        <ImageView
+            android:id="@+id/postitem_second_image"
+            style="@style/postitem_image"
+            android:src="@drawable/postitem_addphoto_selector"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/postitem_third_image"
+            style="@style/postitem_image"
+            android:src="@drawable/postitem_addphoto_selector"
+            android:visibility="invisible" />
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+         >
+
+        <ImageView
+            android:id="@+id/postitem_fourth_image"
+            style="@style/postitem_image"
+            android:src="@drawable/postitem_addphoto_selector"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/postitem_fifth_image"
+            style="@style/postitem_image"
+            android:src="@drawable/postitem_addphoto_selector"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/postitem_sixth_image"
+            style="@style/postitem_image"
+            android:src="@drawable/postitem_addphoto_selector"
+            android:visibility="invisible" />
+        
+        
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/postitem_sendbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/postitem_sendbutton"
+        android:gravity="center"
+        android:text="@string/postitem_send"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+</LinearLayout>
